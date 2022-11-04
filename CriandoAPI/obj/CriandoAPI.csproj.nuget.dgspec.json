@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ramon\\Documents\\cursosDIO\\bootcamp\\C_Sharp\\CriandoAPI\\CriandoAPI.csproj": {}
+    "C:\\Users\\ramon\\Documents\\cursosDIO\\bootcamp\\C_Sharp\\Pottencial\\CriandoAPI\\CriandoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ramon\\Documents\\cursosDIO\\bootcamp\\C_Sharp\\CriandoAPI\\CriandoAPI.csproj": {
+    "C:\\Users\\ramon\\Documents\\cursosDIO\\bootcamp\\C_Sharp\\Pottencial\\CriandoAPI\\CriandoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ramon\\Documents\\cursosDIO\\bootcamp\\C_Sharp\\CriandoAPI\\CriandoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ramon\\Documents\\cursosDIO\\bootcamp\\C_Sharp\\Pottencial\\CriandoAPI\\CriandoAPI.csproj",
         "projectName": "CriandoAPI",
-        "projectPath": "C:\\Users\\ramon\\Documents\\cursosDIO\\bootcamp\\C_Sharp\\CriandoAPI\\CriandoAPI.csproj",
+        "projectPath": "C:\\Users\\ramon\\Documents\\cursosDIO\\bootcamp\\C_Sharp\\Pottencial\\CriandoAPI\\CriandoAPI.csproj",
         "packagesPath": "C:\\Users\\ramon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ramon\\Documents\\cursosDIO\\bootcamp\\C_Sharp\\CriandoAPI\\obj\\",
+        "outputPath": "C:\\Users\\ramon\\Documents\\cursosDIO\\bootcamp\\C_Sharp\\Pottencial\\CriandoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ramon\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
